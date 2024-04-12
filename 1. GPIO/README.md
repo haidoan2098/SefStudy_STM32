@@ -58,7 +58,7 @@ PinState: Trạng thái của chân như nào? (Reset <=> 0 & Set <=> 1).
 - Đặt tần số của HSI là tối đa 72Mhz        
 ------------------------------------------------------------------
 ## BÀI TẬP         
-1. Nhấp nháy LED ở chân PC12 tần số 1Hz (500ms sáng, 500ms tắt)
+1. Nhấp nháy LED ở chân PC13 tần số 1Hz.
 2. Nhấp nháy đồng thời 2 LED. LED ở chân PC13 tần số 1Hz chân PC14 tần số 5Hz.        
 - Yêu cầu: Sử dụng HAL_Gettick()        
 - Từ tần số ra có thể suy ra được sáng bao lâu và tắt bao lâu. Chu kì là khoảng thời gian vật lặp lại trạng thái ban đầu T = 1/f mà 1 chu kì thì sẽ có 1 sáng 1 tối nên từ đó suy ra.        
