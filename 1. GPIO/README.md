@@ -15,7 +15,7 @@
 ### 2. 4 khối chính của Chip        
 - Khối nguồn        
 -> Là nơi cấp nguồn cho chip để nó hoạt động, chân kí hiệu: VSS, VDD.       
-- Khối dao động 
+- Khối dao động     
 -> Là nơi làm cho Chip hoạt động với tần số 72Mhz, thông thường dùng thạch anh hoặc bộ dao động nội để tạo sao động, chân kí hiệu: có OSC.          
 - Khối Reset        
 -> Khôi phục VĐK về trạng thái ban đầu và khôi phục lại hệ thống, chân kí hiệu: RST hoặc NRST.      
