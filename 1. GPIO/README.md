@@ -15,7 +15,7 @@
 ### 2. 4 khối chính của Chip        
 - Khối nguồn        
 -> Là nơi cấp nguồn cho chip để nó hoạt động, chân kí hiệu: VSS, VDD.       
-- Khối dao động     
+- Khối dao động 
 -> Là nơi làm cho Chip hoạt động với tần số 72Mhz, thông thường dùng thạch anh hoặc bộ dao động nội để tạo sao động, chân kí hiệu: có OSC.          
 - Khối Reset        
 -> Khôi phục VĐK về trạng thái ban đầu và khôi phục lại hệ thống, chân kí hiệu: RST hoặc NRST.      
@@ -60,19 +60,9 @@ PinState: Trạng thái của chân như nào? (Reset <=> 0 & Set <=> 1).
 ## BÀI TẬP         
 1. Nhấp nháy LED ở chân PC12 tần số 1Hz (500ms sáng, 500ms tắt)
 2. Nhấp nháy đồng thời 2 LED. LED ở chân PC13 tần số 1Hz chân PC14 tần số 5Hz.        
-(Sử dụng HAL_Gettick)
+- Yêu cầu: Sử dụng HAL_Gettick()        
+- Từ tần số ra có thể suy ra được sáng bao lâu và tắt bao lâu. Chu kì là khoảng thời gian vật lặp lại trạng thái ban đầu T = 1/f mà 1 chu kì thì sẽ có 1 sáng 1 tối nên từ đó suy ra.        
 
-
-
-
-
-
- 
-   
-
-
-        
-
-
-
- 
+#### * Các cách mắc LED:        
+![](https://i.imgur.com/RLEZgNe.png)        
+-> Nên mắc theo kiểu Sink dòng vì tải sẽ lấy trực tiếp từ nguồn, nên thường sẽ cấp đủ cho tải.      
