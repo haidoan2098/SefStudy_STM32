@@ -34,7 +34,7 @@ GPIO = General Purpose Input Output: Là các chân của VĐK có thể đượ
  - Output Driver: Điều khiển trạng thái của chân đầu ra để tương tác với thiết bị hoặc cảm biến bên ngoài.
  Tìm hiểu về khối Output Driver:        
  ![](https://i.imgur.com/azN5jTa.png)           
- ### 4. Hàm setup mức Logic cho chân & Hàm Millisecond       
+ ### 4. Hàm setup mức Logic cho chân đầu ra & Hàm Millisecond       
 - HAL_GPIO_WritePin(GPIOx, GPIO_Pin, GPIO_Pin_PinState);     
 x: Port nào?       
 Pin: Chân số mấy?      
