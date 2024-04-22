@@ -42,7 +42,6 @@ Pin: Chân số mấy?
 1. Nhấn nút trên chân PA0 thì đèn trên chân PC13 bật, nhấn lần nữa đèn tắt.
 2. 1 nút nhấn điều khiển 3 bóng đèn, nhấn lần 1 đèn 1 sáng, nhấn lần 2 thì đèn 2 sáng, nhấn lần 3 thì đèn 3 sáng, nhấn lần 4 thì 3 đèn nhấp nháy với tần số 5Hz, nhấn lần 5 thì 3 đèn tắt.          
 -- Nút nhấn nối với PA0, 3 đèn lần lượt nối với PB3 PB4 PB5.            
--- Gợi ý: Sử dụng Kỹ thuật State Machine.       
-3. Xây dựng thư viện Button có các sự kiện.     
+-- Gợi ý: Sử dụng Kỹ thuật State Machine.        
 - Yêu cầu: Ko sử dụng Delay và While           
      
