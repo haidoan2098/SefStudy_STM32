@@ -33,15 +33,10 @@ Pin: Chân số mấy?
 ### * Các sự kiện của nút nhấn:
 - Nhấn nút: btn_pressing_callback;
 - Nhả nút: btn_realese_callback;
-- Nhấn giữ: btn_pressed_timeout_callback; -> Nhấn giữ lâu hơn 3s rồi thả
+- Nhấn giữ: btn_pressed_long_callback; -> Nhấn giữ lâu hơn 3s rồi thả
 - Nhấn nhả: btn_pressed_short_callback; -> Nhấn phát nhả ra ngay, thời gian thực hiện bé hơn 1s
 ---> Code xử lý rung phím và các sự kiện nút nhấn ở trong file Button.
 
 ------------------------------------------------------------------
-## BÀI TẬP         
-1. Nhấn nút trên chân PA0 thì đèn trên chân PC13 bật, nhấn lần nữa đèn tắt.
-2. 1 nút nhấn điều khiển 3 bóng đèn, nhấn lần 1 đèn 1 sáng, nhấn lần 2 thì đèn 2 sáng, nhấn lần 3 thì đèn 3 sáng, nhấn lần 4 thì 3 đèn nhấp nháy với tần số 5Hz, nhấn lần 5 thì 3 đèn tắt.          
--- Nút nhấn nối với PA0, 3 đèn lần lượt nối với PB3 PB4 PB5.            
--- Gợi ý: Sử dụng Kỹ thuật State Machine.        
-- Yêu cầu: Ko sử dụng Delay và While           
+      
      
