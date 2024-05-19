@@ -29,7 +29,7 @@ Nếu như ta đọc được giá trị của ADC = 400 thì điện áp đầu
 ![](https://i.imgur.com/mjpyBKu.png)
 
 ### 3. Các hàm quan trọng.      
-* HAL_ADC_Start(): Kích hoạt thiết bị ngoại vi ADC và bắt đầu chuyển đổi.
+* HAL_ADC_Start(): Kích hoạt thiết bị ngoại vi ADC và bắt đầu chuyển đổi.   
 -- Hàm gốc: HAL_ADC_Start(ADC_HandleTypeDef* hadc)      
 Nghĩa là mình có 2 kênh ADC nên nó ko biết cái nào, nên khi gọi hàm này ta phải bỏ vào kênh nào. (Này đã được CubeMX tạo ra ngay khi chọn kênh).        
 ![](https://i.imgur.com/xqYWADr.png)  
