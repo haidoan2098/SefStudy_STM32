@@ -1,4 +1,13 @@
-# Buổi 0: Các khái niệm cơ bản trong Embedded
+# Buổi 0: Làm quen với Vi Điều Khiển.
+### Nếu ta xem STM32 như 1 con người thì nó sẽ có các sự tương quan như sau:
+- Bộ não (CPU): Xử lí thông tin.        
+- Trái tim (Clock): Clock chính là trái tim của STM32F103, cung cấp nhịp đập ổn định cho toàn bộ hệ thống. Nhờ có trái tim này, STM32F103 có thể hoạt động một cách nhịp nhàng và chính xác.        
+- Hệ thần kinh (Bus): Hệ thống Bus đóng vai trò như hệ thần kinh STM32F103, kết nối bộ não với các giác quan và các bộ phận khác trong cơ thể. Nhờ hệ thần kinh mà dữ liệu truyền đi nhanh chóng.
+#### Ngoài ra các giác quan (Ngoại vi):      
+- Xúc giác (GPIO): Cho phép cảm nhận các tín hiệu điện từ các nút nhấn, cảm biến và các thiết bị khác.      
+- Thị giác (ADC): Cho phép "nhìn" và chuyển đổi các tín hiệu Analog từ thế giới bên ngoài thành dạng số để bộ não xử lý.        
+- Khứu giác và vị giác (Giao tiếp): Cho phép "ngửi" và "nếm" dữ liệu thông qua các giao thức giao tiếp như UART, SPI, I2C, CAN, USB.      
+
 
 1. Khái niệm.
 - MCU = Microcontroller = Vi điều khiển
