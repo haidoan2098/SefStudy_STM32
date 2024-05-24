@@ -3,6 +3,7 @@
 - Bộ não (CPU): Xử lí thông tin.        
 - Trái tim (Clock): Clock chính là trái tim của STM32F103, cung cấp nhịp đập ổn định cho toàn bộ hệ thống. Nhờ có trái tim này, STM32F103 có thể hoạt động một cách nhịp nhàng và chính xác.        
 - Hệ thần kinh (Bus): Hệ thống Bus đóng vai trò như hệ thần kinh STM32F103, kết nối bộ não với các giác quan và các bộ phận khác trong cơ thể. Nhờ hệ thần kinh mà dữ liệu truyền đi nhanh chóng.
+- Tay chân (PWM, Timer): STM32F103 có nhiều "tay chân" linh hoạt như PWM (Pulse Width Modulation) và Timer, cho phép điều khiển các động cơ, đèn LED và các thiết bị khác một cách chính xác.    
 #### Ngoài ra các giác quan (Ngoại vi):      
 - Xúc giác (GPIO): Cho phép cảm nhận các tín hiệu điện từ các nút nhấn, cảm biến và các thiết bị khác.      
 - Thị giác (ADC): Cho phép "nhìn" và chuyển đổi các tín hiệu Analog từ thế giới bên ngoài thành dạng số để bộ não xử lý.        
